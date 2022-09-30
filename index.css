@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #222222;
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* 
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+navbar
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 10vh;
+}
+
+nav {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: forestgreen;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 15px;
+}
+
+.plain {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+about
+#about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.prof-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-media > h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media > h2 > span {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media > ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 15px;
+}
+
+skills
+#skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.description,
+.skills-container {
+  flex-basis: 50%;
+  padding: 5%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skills-elem {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.skills-params {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skills-scale {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  width: 100%;
+  height: 25px;
+}
+
+.scale {
+  height: 100%;
+  width: 25px;
+  background-color: red;
+  border-radius: 100%;
+}
+
+services
+#services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.grid {
+  margin: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.service {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  gap: 15px;
+  background-color: forestgreen;
+  border-radius: 10%;
+}
+
+.service > img {
+  width: 75px;
+  height: 75px;
+}
+
+contact
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+form {
+  margin: auto none;
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.grid-item > input {
+  height: 50px;
+}
+
+.grid-item > textarea {
+  height: 150px;
+}
+
+.btn-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+}
+
+.item-3,
+.item-4 {
+  grid-column: span 2 / span 2;
+}
+
+input[type="submit"] {
+  text-align: center;
+}
+
+Footer
+footer {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  section:first-child {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  section {
+    padding: 50px 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  #about {
+    flex-direction: column;
+  }
+
+  .profile {
+    text-align: center;
+  }
+
+  .social-media {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #skills {
+    flex-direction: column;
+  }
+
+  .skills-scale {
+    gap: 20px;
+    height: 10px;
+  }
+
+  .scale {
+    height: 100%;
+    width: 10px;
+    background-color: red;
+    border-radius: 100%;
+  }
+
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  form {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .item-3,
+  .item-4 {
+    grid-column: span 1 / span 1;
+  }
+
+  footer > h1 {
+    font-size: 24px;
+  }
+} */
