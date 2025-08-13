@@ -37,7 +37,7 @@
               <div class="text-3xl font-bold text-purple-400 mb-2">
                 {{ stats.yearsExperience }}+
               </div>
-              <div class="text-gray-400 text-sm">Years Experience</div>
+              <div class="text-gray-400 text-sm">Work Experience</div>
             </Card>
             <Card
               class="text-center p-6 bg-gray-900 border-gray-800 hover:border-pink-500 transition-colors"

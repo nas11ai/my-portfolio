@@ -13,7 +13,7 @@ const personalInfo: PersonalInfo = {
     phone: '+62 877 1884 6152',
     location: 'Balikpapan, Indonesia',
     linkedin: 'https://www.linkedin.com/in/muhammad-nasa-i-kairupan-3ba24b7/',
-    github: 'https://github.com/yourusername',
+    github: 'https://github.com/nas11ai',
   },
 }
 
@@ -28,17 +28,17 @@ const experiences: Experience[] = [
       'Developing academic operational systems including student enrollment, exam applications, and academic process management systems using Laravel and Vue.js. Implementing modern development practices and automated deployment workflows.',
   },
   {
-    title: 'Back End Developer',
-    company: 'Kramakata',
-    period: '06/2022 - Present',
-    location: 'Jakarta, Indonesia',
+    title: 'Full Stack Web Developer',
+    company: 'Valtech',
+    period: '11/2023 - Present',
+    location: 'Balikpapan, Indonesia',
     description:
-      'Building robust backend systems and APIs for various web applications using modern technologies. Focus on scalable architecture and performance optimization.',
+      'Working as a freelancer on Valtech and building robust end-to-end web applications using modern technologies. Focus on scalable architecture and performance optimization.',
   },
   {
     title: 'Cloud Computing Cohort',
     company: 'Bangkit Academy led by Google, Tokopedia, Gojek & Traveloka',
-    period: '07/2020',
+    period: '07/2022 - 11/2022',
     description:
       'Intensive training program focused on cloud computing technologies, modern development practices, and industry best practices. Gained expertise in cloud infrastructure and deployment strategies.',
   },
@@ -118,9 +118,15 @@ const skills: SkillGroup[] = [
   },
 ]
 
+const startDate = new Date(2023, 1)
+const now = new Date()
+
+const diffYears = now.getFullYear() - startDate.getFullYear()
+const yearsExperience = now.getMonth() < startDate.getMonth() ? diffYears - 1 : diffYears
+
 // Statistics
 const stats = ref({
-  yearsExperience: 3,
+  yearsExperience,
   projectsCompleted: 10,
   technologiesUsed: 15,
   clientsSatisfied: 8,

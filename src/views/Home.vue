@@ -8,6 +8,9 @@
 
     <!-- Skills Section -->
     <SkillsSection />
+
+    <!-- Experience Section -->
+    <ExperienceSection />
   </div>
 </template>
 
@@ -15,4 +18,5 @@
 import HeroSection from '@/components/sections/HeroSection.vue'
 import AboutSection from '@/components/sections/AboutSection.vue'
 import SkillsSection from '@/components/sections/SkillsSection.vue'
+import ExperienceSection from '@/components/sections/ExperienceSection.vue'
 </script>
