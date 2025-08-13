@@ -8,8 +8,8 @@ const personalInfo: PersonalInfo = {
   description:
     'Passionate web developer specializing in Laravel, Vue.js, and blockchain technologies. Experienced in creating academic operational systems and innovative web3 applications.',
   contact: {
-    email: 'nasa.kairupan@gmail.com',
-    phone: '+62 877 5668 6152',
+    email: 'kairupannasai@gmail.com',
+    phone: '+62 877 1884 6152',
     location: 'Balikpapan, Indonesia',
     linkedin: 'https://www.linkedin.com/in/muhammad-nasa-i-kairupan-3ba24b7/',
     github: 'https://github.com/yourusername',
