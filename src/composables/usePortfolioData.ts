@@ -1,5 +1,6 @@
 import { ref, readonly } from 'vue'
-import type { Experience, Project, PersonalInfo } from '@/types'
+import type { Experience, Project, PersonalInfo, SkillGroup } from '@/types'
+import { Code, Server, Database, Cloud, Award } from 'lucide-vue-next'
 
 // Personal Information
 const personalInfo: PersonalInfo = {
@@ -78,6 +79,45 @@ const projects: Project[] = [
   },
 ]
 
+const skills: SkillGroup[] = [
+  {
+    title: 'Frontend',
+    icon: Code,
+    color: 'text-purple-400',
+    badgeClass: 'bg-purple-500/10 text-purple-300 border-purple-500/20 hover:bg-purple-500/20',
+    items: ['Vue.js', 'TypeScript', 'Tailwind CSS', 'JavaScript', 'HTML5', 'CSS3'],
+  },
+  {
+    title: 'Backend',
+    icon: Server,
+    color: 'text-pink-400',
+    badgeClass: 'bg-pink-500/10 text-pink-300 border-pink-500/20 hover:bg-pink-500/20',
+    items: ['Laravel', 'Node.js', 'PHP', 'RESTful APIs', 'Firebase'],
+  },
+  {
+    title: 'Database',
+    icon: Database,
+    color: 'text-blue-400',
+    badgeClass: 'bg-blue-500/10 text-blue-300 border-blue-500/20 hover:bg-blue-500/20',
+    items: ['MySQL', 'PostgreSQL', 'Redis', 'Database Design'],
+  },
+  {
+    title: 'Cloud & DevOps',
+    icon: Cloud,
+    color: 'text-green-400',
+    badgeClass: 'bg-green-500/10 text-green-300 border-green-500/20 hover:bg-green-500/20',
+    items: ['Cloud Computing', 'Docker', 'AWS', 'Google Cloud'],
+  },
+  {
+    title: 'Blockchain & Web3',
+    icon: Award,
+    color: 'text-yellow-400',
+    badgeClass: 'bg-yellow-500/10 text-yellow-300 border-yellow-500/20 hover:bg-yellow-500/20',
+    items: ['Hyperledger Fabric', 'Web3', 'Smart Contracts', 'Blockchain Development'],
+    colSpan: true,
+  },
+]
+
 // Statistics
 const stats = ref({
   yearsExperience: 3,
@@ -92,5 +132,6 @@ export const usePortfolioData = () => {
     experiences: readonly(experiences),
     projects: readonly(projects),
     stats: readonly(stats),
+    skills: readonly(skills),
   }
 }

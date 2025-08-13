@@ -46,3 +46,12 @@ export interface PersonalInfo {
   description: string
   contact: ContactInfo
 }
+
+export interface SkillGroup {
+  title: string
+  icon: Component
+  color: string
+  badgeClass: string
+  items: string[]
+  colSpan?: boolean
+}
