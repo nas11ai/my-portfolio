@@ -171,8 +171,7 @@
 
           <Button
             variant="outline"
-            as-child
-            class="border-gray-600 hover:border-blue-500 hover:text-blue-400"
+            class="text-white bg-black hover:bg-slate-800 hover:border-blue-500 hover:text-blue-400 cursor-pointer"
           >
             <a
               :href="personalInfo.contact.linkedin"

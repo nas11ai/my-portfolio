@@ -12,7 +12,7 @@ const personalInfo: PersonalInfo = {
     email: 'kairupannasai@gmail.com',
     phone: '+62 877 1884 6152',
     location: 'Balikpapan, Indonesia',
-    linkedin: 'https://www.linkedin.com/in/muhammad-nasa-i-kairupan-3ba24b7/',
+    linkedin: 'https://linkedin.com/in/muhammad-nasa-i-kairupan',
     github: 'https://github.com/nas11ai',
   },
 }
