@@ -47,10 +47,10 @@ const experiences: Experience[] = [
 // Projects Data
 const projects: Project[] = [
   {
-    title: 'Blockchain Research & Community Service Information System (SIMPAS)',
+    title: 'Research & Community Service Information System (SIMPAS)',
     description:
-      'Designed and developed a comprehensive information system for ITK to manage research and community service proposals. Integrated blockchain technology using Hyperledger Fabric for document verification and certificate management.',
-    tech: ['Laravel', 'Vue.js', 'Hyperledger Fabric', 'MySQL', 'Docker'],
+      'Designed and developed a comprehensive information system for Technology Institute of Kalimantan to manage research and community service proposals',
+    tech: ['Laravel', 'MySQL', 'Docker'],
     liveUrl: '#',
     githubUrl: '#',
   },
@@ -58,22 +58,22 @@ const projects: Project[] = [
     title: 'Computer-Based Testing Application',
     description:
       'Developed a comprehensive CBT platform to digitize and simplify the examination process at Universitas Balikpapan. Features include automated grading, real-time monitoring, and detailed analytics.',
-    tech: ['Laravel', 'Vue.js', 'MySQL', 'Docker', 'Redis'],
+    tech: ['Laravel', 'MySQL', 'Redis'],
     liveUrl: '#',
     githubUrl: '#',
   },
   {
-    title: 'Web Deployment Process Automation',
+    title: 'New Student Admission Web Application',
     description:
-      'Streamlined web deployment processes at UNIBA using automated Git-based workflow. Implemented CI/CD pipelines that significantly reduced deployment time and minimized human errors.',
-    tech: ['Git', 'Docker', 'Cloud Computing', 'CI/CD', 'Linux'],
+      'Developed a web application for the new student admission process at UNIBA using Laravel for the backend and Vue.js for the frontend. The system streamlines the online registration process for prospective students and enables the university to efficiently manage applicant data.',
+    tech: ['Laravel', 'Vue.js', 'MySQL', 'Redis'],
     githubUrl: '#',
   },
   {
-    title: 'Academic Management System',
+    title: 'Blockchain Applied Research for Public Document Management System',
     description:
-      'Comprehensive system for managing student enrollment, academic processes, and administrative operations. Built with modern web technologies and responsive design for optimal user experience.',
-    tech: ['Laravel', 'Vue.js', 'PostgreSQL', 'Redis', 'Tailwind CSS'],
+      'Conducted applied research to develop a blockchain-based system for managing academic certificates, national ID cards, and land ownership documents.',
+    tech: ['Node.js', 'Vue.js', 'PostgreSQL', 'Blockchain', 'Hyperledger Fabric', 'Docker'],
     liveUrl: '#',
     githubUrl: '#',
   },

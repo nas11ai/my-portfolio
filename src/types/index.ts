@@ -11,7 +11,7 @@ export interface Experience {
 export interface Project {
   title: string
   description: string
-  tech: string[]
+  tech: readonly string[]
   liveUrl?: string
   githubUrl?: string
   image?: string

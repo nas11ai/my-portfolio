@@ -11,6 +11,9 @@
 
     <!-- Experience Section -->
     <ExperienceSection />
+
+    <!-- Projects Section -->
+    <ProjectsSection />
   </div>
 </template>
 
@@ -19,4 +22,5 @@ import HeroSection from '@/components/sections/HeroSection.vue'
 import AboutSection from '@/components/sections/AboutSection.vue'
 import SkillsSection from '@/components/sections/SkillsSection.vue'
 import ExperienceSection from '@/components/sections/ExperienceSection.vue'
+import ProjectsSection from '@/components/sections/ProjectsSection.vue'
 </script>
