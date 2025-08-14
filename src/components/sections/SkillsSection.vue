@@ -1,5 +1,5 @@
 <template>
-  <section id="skills" class="py-20">
+  <section id="skills" class="skills-section py-20">
     <div class="max-w-6xl mx-auto px-6">
       <div class="text-center mb-16">
         <h2
@@ -38,6 +38,14 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+.skills-section {
+  background-image: url('@/assets/skills-bg.svg');
+  background-size: cover;
+  background-position: center;
+}
+</style>
 
 <script setup lang="ts">
 import { Card } from '@/components/ui/card'

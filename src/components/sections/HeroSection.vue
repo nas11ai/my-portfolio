@@ -1,5 +1,8 @@
 <template>
-  <section id="hero" class="min-h-screen flex items-center justify-center relative overflow-hidden">
+  <section
+    id="hero"
+    class="hero-section min-h-screen flex items-center justify-center relative overflow-hidden"
+  >
     <!-- Animated Background -->
     <div class="absolute inset-0">
       <div
@@ -68,6 +71,14 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+.hero-section {
+  background-image: url('@/assets/hero-bg.svg');
+  background-size: cover;
+  background-position: center;
+}
+</style>
 
 <script setup lang="ts">
 import { User, Download, ChevronDown } from 'lucide-vue-next'

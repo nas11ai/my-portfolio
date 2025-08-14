@@ -1,5 +1,5 @@
 <template>
-  <section id="experience" class="py-20 bg-gray-950">
+  <section id="experience" class="experience-section py-20 bg-gray-950">
     <div class="max-w-6xl mx-auto px-6">
       <div class="text-center mb-16">
         <h2
@@ -112,6 +112,14 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+.experience-section {
+  background-image: url('@/assets/experience-bg.svg');
+  background-size: cover;
+  background-position: center;
+}
+</style>
 
 <script setup lang="ts">
 import { Briefcase, MapPin, GraduationCap, Award } from 'lucide-vue-next'

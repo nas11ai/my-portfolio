@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="py-20 bg-gray-950">
+  <section id="about" class="about-section py-20 bg-gray-950">
     <div class="max-w-6xl mx-auto px-6">
       <div class="text-center mb-16">
         <h2
@@ -135,6 +135,14 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+.about-section {
+  background-image: url('@/assets/about-bg.svg');
+  background-size: cover;
+  background-position: center;
+}
+</style>
 
 <script setup lang="ts">
 import { Mail, Phone, MapPin, Linkedin, Github } from 'lucide-vue-next'

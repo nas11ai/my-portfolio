@@ -1,7 +1,7 @@
 <template>
-  <footer class="py-8 border-t border-gray-800">
+  <footer class="py-8 border-t bg-purple-400 border-purple-500">
     <div class="max-w-6xl mx-auto px-6">
-      <div class="text-gray-400 text-center">
+      <div class="text-white text-center">
         © {{ currentYear }} Muhammad Nasa'i Kairupan. Built with Vue.js, Tailwind CSS & Shadcn UI.
       </div>
     </div>

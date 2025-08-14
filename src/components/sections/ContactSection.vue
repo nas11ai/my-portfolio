@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" class="py-20 bg-gray-950">
+  <section id="contact" class="contact-section py-20">
     <div class="max-w-4xl mx-auto px-6">
       <div class="text-center mb-16">
         <h2
@@ -153,7 +153,7 @@
 
       <!-- Quick Contact Actions -->
       <div class="text-center space-y-6">
-        <p class="text-gray-400">Prefer a more direct approach?</p>
+        <p class="text-white">Prefer a more direct approach?</p>
 
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
@@ -188,6 +188,14 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+.contact-section {
+  background-image: url('@/assets/contact-bg.svg');
+  background-size: cover;
+  background-position: center;
+}
+</style>
 
 <script setup lang="ts">
 import { ref, reactive } from 'vue'
