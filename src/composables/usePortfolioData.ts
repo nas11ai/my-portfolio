@@ -47,35 +47,44 @@ const experiences: Experience[] = [
 // Projects Data
 const projects: Project[] = [
   {
-    title: 'Research & Community Service Information System (SIMPAS)',
+    title: 'Partnership Information Management System',
     description:
-      'Designed and developed a comprehensive information system for Technology Institute of Kalimantan to manage research and community service proposals',
-    tech: ['Laravel', 'MySQL', 'Docker'],
-    liveUrl: '#',
+      'A web-based CMS-like system for managing institutional partnership data, dynamic content, customizable forms, and partnership documents of Institut Teknologi Kalimantan (ITK).',
+    tech: ['Laravel', 'Vue.js', 'MySQL', 'Docker'],
+    liveUrl: 'https://sikera.uniba-bpn.ac.id',
     githubUrl: '#',
   },
   {
-    title: 'Computer-Based Testing Application',
+    title: 'Academic and Financial Management System of Balikpapan University',
     description:
-      'Developed a comprehensive CBT platform to digitize and simplify the examination process at Universitas Balikpapan. Features include automated grading, real-time monitoring, and detailed analytics.',
-    tech: ['Laravel', 'MySQL', 'Redis'],
-    liveUrl: '#',
+      'Developed and maintained end-to-end academic and financial operational systems, covering frontend, backend services, database, and server infrastructure to ensure system reliability and scalability.',
+    tech: ['Laravel', 'Node.js', 'Vue.js', 'MySQL', 'Redis', 'Docker'],
+    liveUrl: 'https://siat.uniba-bpn.ac.id/',
     githubUrl: '#',
   },
   {
-    title: 'New Student Admission Web Application',
+    title: 'Real Estate Management Web Application',
     description:
-      'Developed a web application for the new student admission process at UNIBA using Laravel for the backend and Vue.js for the frontend. The system streamlines the online registration process for prospective students and enables the university to efficiently manage applicant data.',
-    tech: ['Laravel', 'Vue.js', 'MySQL', 'Redis'],
+      'Designed and developed scalable backend services and RESTful APIs for a real estate property management system, including database schema design, Git- and Docker-based automation, and integration with frontend applications.',
+    tech: ['Node.js', 'PostgreSQL', 'Docker'],
+    liveUrl: 'https://www.noblepropertiesasia.com',
     githubUrl: '#',
   },
   {
     title: 'Blockchain Applied Research for Public Document Management System',
     description:
       'Conducted applied research to develop a blockchain-based system for managing academic certificates, national ID cards, and land ownership documents.',
-    tech: ['Node.js', 'Vue.js', 'PostgreSQL', 'Blockchain', 'Hyperledger Fabric', 'Docker'],
+    tech: [
+      'Node.js',
+      'Vue.js',
+      'PostgreSQL',
+      'Blockchain',
+      'Hyperledger Fabric',
+      'Docker',
+      'Firebase',
+    ],
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/nas11ai/tugas-akhir',
   },
 ]
 
