@@ -9,8 +9,7 @@
         </h2>
         <div class="w-20 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto"></div>
         <p class="text-gray-400 mt-6 max-w-2xl mx-auto">
-          Here are some of my recent projects that showcase my skills in web development, blockchain
-          technology, and academic system management.
+          Here are some of my recent projects that showcase my skills in software development.
         </p>
       </div>
 

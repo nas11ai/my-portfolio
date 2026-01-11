@@ -22,11 +22,10 @@
           <p class="text-gray-300 mb-6 leading-relaxed">
             My experience spans from developing comprehensive academic management systems to
             implementing cutting-edge blockchain solutions for document verification and certificate
-            management using Hyperledger Fabric.
+            management.
           </p>
           <p class="text-gray-300 mb-8 leading-relaxed">
-            I'm particularly interested in the intersection of traditional web development and
-            emerging blockchain technologies, always looking for innovative ways to solve complex
+            I'm motivated to learn new things and always looking for innovative ways to solve complex
             problems.
           </p>
 
